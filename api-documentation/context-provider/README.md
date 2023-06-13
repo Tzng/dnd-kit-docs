@@ -97,7 +97,7 @@ Fires after a draggable item is dropped.
 
 This event contains information about the active draggable `id` along with information on whether the draggable item was dropped `over`. 
 
-If there are no [collisions detected](collision-detection-algorithms.md) when the draggable item is dropped, the `over` property will be `null`. If a collision is detected, the `over` property will contain the `id` of the droppable over which it was dropped.
+If there are no [collisions detected](collision-detection-algorithms-ZH.md) when the draggable item is dropped, the `over` property will be `null`. If a collision is detected, the `over` property will contain the `id` of the droppable over which it was dropped.
 
 {% hint style="info" %}
 It's important to understand that the `onDragEnd` event **does not move** [**draggable**](../draggable/) **items into** [**droppable**](../droppable/) **containers.** 
@@ -164,13 +164,13 @@ Auto-scrolling may also be disabled on an individual sensor basis using the stat
 
 Use the `collisionDetection` prop to customize the collision detection algorithm used to detect collisions between draggable nodes and droppable areas within the`DndContext` provider. 
 
-The default collision detection algorithm is the [rectangle intersection](collision-detection-algorithms.md#rectangle-intersection) algorithm.
+The default collision detection algorithm is the [rectangle intersection](collision-detection-algorithms-ZH.md#rectangle-intersection) algorithm.
 
 The built-in collision detection algorithms are:
 
-* [Rectangle intersection](collision-detection-algorithms.md#rectangle-intersection)
-* [Closest center](collision-detection-algorithms.md#closest-center)
-* [Closest corners](collision-detection-algorithms.md#closest-corners)
+* [Rectangle intersection](collision-detection-algorithms-ZH.md#rectangle-intersection)
+* [Closest center](collision-detection-algorithms-ZH.md#closest-center)
+* [Closest corners](collision-detection-algorithms-ZH.md#closest-corners)
 
 You may also build custom collision detection algorithms or compose existing ones.
 

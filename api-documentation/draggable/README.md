@@ -10,7 +10,7 @@ The `useDraggable` hook isn't particularly opinionated about how your app should
 
 ### Node ref
 
-At minimum though, you need to pass the `setNodeRef` function that is returned by the `useDraggable` hook to a DOM element so that it can access the underlying DOM node and keep track of it to [detect collisions and intersections](../context-provider/collision-detection-algorithms.md) with other [droppable](../droppable/) elements.&#x20;
+At minimum though, you need to pass the `setNodeRef` function that is returned by the `useDraggable` hook to a DOM element so that it can access the underlying DOM node and keep track of it to [detect collisions and intersections](../context-provider/collision-detection-algorithms-ZH.md) with other [droppable](../droppable/) elements.&#x20;
 
 ```jsx
 import {useDraggable} from '@dnd-kit/core';

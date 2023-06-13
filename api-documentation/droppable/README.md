@@ -4,6 +4,7 @@
 
 Use the `useDroppable` hook to set up DOM nodes as droppable areas that [draggable](../draggable/) elements can be dropped over. 
 
+
 ## Usage
 
 The `useDroppable` hook isn't opinionated about how you should structure your application. 
